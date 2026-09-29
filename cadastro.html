@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seja Voluntário - Mãos que Transformam</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Seja Voluntário</h1>
+
+        <nav class="menu">
+
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        ☰
+    </button>
+
+    <div class="menu-links">
+        <a href="index.html">Início</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="cadastro.html">Seja Voluntário</a>
+    </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section>
+
+            <h2>Cadastre-se como voluntário</h2>
+
+            <p>
+                Preencha o formulário abaixo para demonstrar seu interesse
+                em participar das ações da Mãos que Transformam.
+            </p>
+
+        </section>
+
+        <section>
+
+            <h2>Dados pessoais</h2>
+
+            <div class="alerta" role="alert">
+                 <strong>Atenção:</strong>
+                preencha todos os campos obrigatórios antes de enviar o cadastro.
+            </div>
+
+            <form>
+
+                <fieldset>
+
+                    <legend>Informações pessoais</legend>
+
+                    <p>
+                        <label for="nome">Nome completo:</label>
+                        <input type="text" id="nome" name="nome" 
+                        placeholder="Digite seu nome completo"
+                        autocomplete="name"
+                        required>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" 
+                        placeholder="exemplo@email.com"
+                        autocomplete="email"
+                        required>
+                    </p>
+
+                    <p>
+                        <label for="nascimento">Data de nascimento:</label>
+                        <input type="date" id="nascimento" name="nascimento" required>
+                    </p>
+
+                    <p>
+                        <label for="cpf">CPF:</label>
+                        <input type="text" id="cpf" name="cpf"
+                            placeholder="000.000.000-00"
+                            maxlength="14"
+                            inputmode="numeric"
+                            pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}"
+                            required>
+                    </p>
+
+                    <p>
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone"
+                            placeholder="(11) 99999-9999"
+                            maxlength="15"
+                            inputmode="numeric"
+                            pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}"
+                            required>
+                    </p>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Endereço</legend>
+
+                    <p>
+                        <label for="cep">CEP:</label>
+                        <input type="text" id="cep" name="cep"
+                            placeholder="00000-000"
+                            maxlength="9"
+                            inputmode="numeric"
+                            pattern="[0-9]{5}-[0-9]{3}"
+                            required>
+                    </p>
+
+                    <p>
+                        <label for="endereco">Endereço:</label>
+                        <input type="text" id="endereco" name="endereco" required>
+                    </p>
+
+                    <p>
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="cidade" name="cidade" required>
+                    </p>
+
+                    <p>
+                        <label for="estado">Estado:</label>
+                        <input type="text" id="estado" name="estado" required>
+                    </p>
+
+                </fieldset>
+
+                <p>
+                    <button type="submit">Enviar cadastro</button>
+                </p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            &copy; 2026 Mãos que Transformam. Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+    <div id="toast" class="toast" role="status">
+    Cadastro enviado com sucesso!
+</div>
+
+    <script src="js/script.js"></script> 
+    
+</body>
+
+</html>
