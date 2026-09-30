@@ -20,7 +20,7 @@ export const inicioTemplate = `
     </p>
 
     <img
-        src="imagem/imagens/ação.social.jpg"
+        src="/imagem/otimizadas/acao-social.webp"
         alt="Voluntários participando de uma ação social">
 
 </section>
@@ -70,7 +70,7 @@ export const projetosTemplate = `
         <span class="badge">Educação</span>
 
         <img
-            src="imagem/imagens/educacao.jpg"
+            src="/imagem/otimizadas/educacao.webp"
             alt="Crianças participando de atividades educativas">
 
         <p>
@@ -88,7 +88,7 @@ export const projetosTemplate = `
         <span class="badge">Doação</span>
 
         <img
-            src="imagem/imagens/alimentacao.jpg"
+           src="/imagem/otimizadas/alimentacao.webp"
             alt="Voluntários organizando doações de alimentos">
 
         <p>
@@ -106,7 +106,7 @@ export const projetosTemplate = `
         <span class="badge">Voluntariado</span>
 
         <img
-            src="imagem/imagens/voluntarios.jpg"
+            src="/imagem/otimizadas/voluntarios.webp"
             alt="Voluntários participando de uma ação social">
 
         <p>

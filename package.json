@@ -1,0 +1,25 @@
+{
+  "name": "projeto.ong",
+  "version": "1.0.0",
+  "description": "Projeto acadêmico de desenvolvimento web para uma ONG fictícia chamada **Mãos que Transformam**.",
+  "main": "index.js",
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c4miiz/projeto.ong.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c4miiz/projeto.ong/issues"
+  },
+  "homepage": "https://github.com/c4miiz/projeto.ong#readme",
+  "devDependencies": {
+    "vite": "^8.3.1"
+  }
+}
